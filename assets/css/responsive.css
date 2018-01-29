@@ -1,0 +1,59 @@
+
+
+/*media query to add a breakpoint at 980px:*/
+@media (max-width:980px) {
+    #headerB, .nav, .nav-link, #mainSection, footer,#logo{
+      width:100%; 
+      margin:auto;
+    }
+
+    #logo {
+        padding: 32px;
+        padding-left: 60px;
+    }
+
+    #sideBox {
+        float: left;
+        margin-left: 50px;
+        margin-bottom: 125px;
+       
+    }
+
+    #aboutMe {
+        width: 335px;
+        height: 625px;
+        margin-left: 21px;
+        
+    }
+    
+    footer {
+        clear: both;
+        background-color: #666666;
+        height: 90px;
+        text-align: center;
+        color: #ffffff;
+        bottom: 0;
+        width: 100%;
+        padding:30px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size:80%;
+        border-top: 8px solid teal;
+    }
+
+    .nav {
+        background:#fff;
+        padding: 14px;
+        padding-left: 60px;
+    }
+
+    #portfolio {
+        width:86%;
+        margin-left:11px;
+        height:100%;
+    }
+
+    #contactbox {
+        width:96%;
+        margin-left:8px;
+    }
+  }
